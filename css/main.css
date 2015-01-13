@@ -32,12 +32,17 @@ body {
 
 .title {
 	display: inline-block;
-	background-color: ;
+	background-color: #E7E5D9;
+	vertical-align: middle;
+}
+
+.wanted {
+	text-shadow: 2px 2px #BFBFBF;
 }
 
 .logo {
-	margin: ;
-	width: 1.2em;
+	display: inline-block;
+	width: 2em;
 	vertical-align: middle;
 }
 
