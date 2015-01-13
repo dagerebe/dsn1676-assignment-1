@@ -5,24 +5,28 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
-
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
-img {
-	width: 100%;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #E7E5D9;
 }
 
-body {
-	background-color: #E7E5D9;
+img {
+	display: block;
+	width: 100%;
 }
 
 .masthead {
@@ -55,6 +59,16 @@ body {
 	background-color: #87714F;
 	color: white;
 	text-align: center;
+}
+
+.list {
+	text-align: left;
+}
+
+.icons {
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
 }
 
 
