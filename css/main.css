@@ -17,6 +17,10 @@ html {
     box-sizing: inherit;
 }
 
+img {
+	width: 100%;
+}
+
 .masthead {
 	background: transparent url("../img/masthead-bg.png") repeat left center; 
 	text-align: center;
